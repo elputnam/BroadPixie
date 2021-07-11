@@ -47,7 +47,7 @@ function draw() {
 function honeyComb(){
   for (let i = 0; i < cells.length; i++){
     stroke(random(30,50), 100, 100);
-    strokeWeight(map(mouseX, 0, width, 5, 100));
+    strokeWeight(map(mouseX, 0, width, 5, 50));
     fill(random(30,50), random(50), 100, 50);
     beginShape();
     vertex(cells[i].x + random(-2,2), cells[i].y+cells[i].len*0.5 + random(-2,2));
