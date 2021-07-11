@@ -12,7 +12,7 @@ function setup() {
   
 function draw() {
   background(random(150,200), 50, 50, 5);
-  while (cells.length < 200){
+  while (cells.length < height*.5){
     var cell = {
       x: random(width),
       y: random(height-80),
